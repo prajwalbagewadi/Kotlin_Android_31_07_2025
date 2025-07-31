@@ -102,3 +102,7 @@ fun main(){
     println("const global PI="+pi);
 }
 ```
+
+## const val can only be used at:
+
+The top level (outside any class or function)
