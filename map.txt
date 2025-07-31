@@ -1,0 +1,137 @@
+✅ Phase 1: Learn Kotlin (with Java comparison)
+🔍 Search each topic with “in Kotlin for Java developers”
+
+📘 Kotlin Fundamentals:
+Kotlin vs Java syntax
+
+val vs var
+
+Null safety (?, !!, Elvis ?:)
+
+Data types and type inference
+
+Functions and parameters (default & named arguments)
+
+String templates ("Hello, $name")
+
+Control structures (if, when, for, while)
+
+Ranges and collections
+
+Lambda expressions
+
+Extension functions
+
+📦 Kotlin OOP:
+Classes and objects
+
+Primary and secondary constructors
+
+data class vs normal class
+
+Inheritance and abstract classes
+
+Interfaces and anonymous objects
+
+Object expressions and companion objects
+
+Enum classes and sealed classes
+
+✅ Phase 2: Android Fundamentals (in Kotlin)
+🔍 Search with “in Android using Kotlin”
+
+🛠️ Android Basics:
+Setting up Android Studio
+
+Project structure: Manifest, res, src, Gradle
+
+Activity lifecycle
+
+Layouts in XML (LinearLayout, ConstraintLayout)
+
+Views: TextView, EditText, Button, ImageView
+
+Intents and Activity navigation
+
+Toasts and Snackbars
+
+Handling user input and onClickListeners
+
+✅ Phase 3: Android UI and Components
+📲 UI & Interaction:
+RecyclerView and ViewHolder
+
+Adapter pattern in Android
+
+ScrollView and NestedScrollView
+
+Menus and Dialogs
+
+ViewPager & TabLayout
+
+Toolbar & AppBar
+
+✅ Phase 4: Android Architecture (MVVM)
+🧱 Components:
+ViewModel and LiveData
+
+ViewModel lifecycle
+
+MutableLiveData vs LiveData
+
+Data Binding
+
+Jetpack Lifecycle-aware components
+
+Navigation component & Safe Args
+
+UI State Management
+
+✅ Phase 5: Android with Local Storage & API
+💾 Database & Networking:
+Room Database (alternative to JDBC)
+
+Entities, DAO, Database class
+
+SQLite vs Room
+
+Repository pattern
+
+Retrofit (for API calls)
+
+JSON parsing using Gson/Moshi
+
+Coroutines for background tasks
+
+✅ Phase 6: Build Projects
+💡 Project Ideas (Build in Kotlin):
+To-Do List App
+
+Expense Tracker App
+
+Weather App (with Retrofit)
+
+Notes App (with Room)
+
+Quiz App
+
+Simple Chat UI
+
+YouTube Search App using WebView
+
+✅ Bonus (Modern UI)
+Explore after XML UI
+
+🧩 Jetpack Compose:
+What is Jetpack Compose
+
+Composable functions
+
+State and Recomposition
+
+Lists & LazyColumn
+
+Navigation in Compose
+
+Comparison: XML vs Compose
+
