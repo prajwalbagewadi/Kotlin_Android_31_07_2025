@@ -81,8 +81,19 @@ fun main(){
     println(name?.length)   // Safe call — prints null  
     //println(name!!.length)  // Throws exception if null
 
+    //Expression
     val i = 10;
     val j = 20;
+    //if
     val max = if( i < j) i else j;
     println("max=$max"); 
+    //when
+    val score = 85;
+    val grade = when(score){
+        in 90..100 -> 'A';
+        in 80..89 -> 'B';
+        in 70..79 -> 'C';
+        else -> 'F';
+    }
+    println("grade = $grade");
 }
