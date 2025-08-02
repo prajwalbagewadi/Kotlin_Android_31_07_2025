@@ -39,4 +39,50 @@ fun main(){
     x = 10;
     println("Logical OR="+(x>2 || x<5));
     println("Logical Not="+(!(x<5)));
+
+    //Unary
+    var pos = 10;
+    var neg = 23;
+    +pos; //positive var
+    -neg; //negitive var
+    println("pos="+pos);
+    println("neg="+neg);
+    pos++;
+    println("Increament pos="+pos);
+    pos--;
+    println("Decreament pos="+pos);
+    var f = true;
+    println("Not opr="+!f)
+
+    //Bitwise
+    var bit1 = 12 ;
+    var bit2 = 5 ;
+    println("bitwise AND="+(bit1.and(bit2)));
+    println("bitwise OR="+(bit1.or(bit2)));
+    println("bitwise XOR="+(bit1.xor(bit2)));
+    println("bitwise NOT="+(bit1.inv())); // -11 unpredictable
+    println("bitwise Leftshift="+(bit1.shl(1))); //num * 2 
+    println("bitwise Rightshift="+(bit1.shr(1))); // num / 2
+    println("bitwise tripleRightshift="+(bit1.ushr(1))); // num / 2
+
+    //InOperator
+    var key = 45;
+    if(key in 1..100){ //range 1..100
+        println("The Key = "+key+" is in range 1..100");
+    } 
+
+    //Elvis Operator 
+    var name : String ?= null  //Declare 'name' as nullable
+    var uname = name ?: "Guest";  //If name is null, use "Guest"
+    println("name="+uname);
+
+    //Safe Call (?.) and Not-Null Assertion (!!)
+    //var name : String? = null
+    println(name?.length)   // Safe call — prints null  
+    //println(name!!.length)  // Throws exception if null
+
+    val i = 10;
+    val j = 20;
+    val max = if( i < j) i else j;
+    println("max=$max"); 
 }
